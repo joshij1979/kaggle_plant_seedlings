@@ -13,8 +13,7 @@ I use [fast.ai library](https://github.com/fastai/fastai/tree/master/fastai).
 
 In order to run the code you need to download the data from [the competition website](https://www.kaggle.com/c/plant-seedlings-classification/data) and put them into `data` directory.
 
-To make the development faster, I've manually created a sample subset by taking 5 images from each class and using 4 test images. The data structure is the same as in the original data, but it's under `data/sample` directory.
-
+To create sample set I used `sample-set-creator.ipynb`.
 To create validation set I used `validation-set-creator.ipynb` .
 
 ## GPU
